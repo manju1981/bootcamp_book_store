@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.idfc.bootcamp.bookstore.BookControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-17T03:53:11" hostname="Manjunaths-MacBook-Pro.local" time="0.169">
+  <properties/>
+  <testcase name="should return success http status code" classname="com.idfc.bootcamp.bookstore.BookControllerTest" time="0.068"/>
+  <testcase name="should return 5 books when fetched" classname="com.idfc.bootcamp.bookstore.BookControllerTest" time="0.085"/>
+  <testcase name="Should return book details as Json response" classname="com.idfc.bootcamp.bookstore.BookControllerTest" time="0.01"/>
+  <system-out><![CDATA[2024-01-17T09:23:10.863+05:30  INFO 20597 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.idfc.bootcamp.bookstore.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-01-17T09:23:10.885+05:30  INFO 20597 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.idfc.bootcamp.bookstore.BookstoreApplication for test class com.idfc.bootcamp.bookstore.BookControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-17T09:23:10.919+05:30  INFO 20597 --- [    Test worker] c.i.b.bookstore.BookControllerTest       : Starting BookControllerTest using Java 21.0.1 with PID 20597 (started by manjurn in /Users/manjurn/bootcamp/bookstore)
+2024-01-17T09:23:10.920+05:30  INFO 20597 --- [    Test worker] c.i.b.bookstore.BookControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2024-01-17T09:23:11.601+05:30  INFO 20597 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-01-17T09:23:11.601+05:30  INFO 20597 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-01-17T09:23:11.603+05:30  INFO 20597 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-01-17T09:23:11.625+05:30  INFO 20597 --- [    Test worker] c.i.b.bookstore.BookControllerTest       : Started BookControllerTest in 0.731 seconds (process running for 7.255)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
