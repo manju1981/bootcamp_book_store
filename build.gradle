@@ -54,7 +54,13 @@ node {
 task appNpmBuild(type: NpmTask){
 	description = "Builds applciation for your frontend "
 	workingDir = file("${project.projectDir}/src/main/frontend-ui/bookstoreapp")
-	args =["install", "build", "run"]
+	args =["run", "build"]
+}
+
+task appNpmInstall(type: NpmTask){
+	description = "Installs the NPM dependencies"
+	workingDir = file("${project.projectDir}/src/main/frontend-ui/bookstoreapp")
+	args =["install"]
 }
 
 task copyToFrontend(type: Copy){
