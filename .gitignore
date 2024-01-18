@@ -1,5 +1,5 @@
-/build/
-/resources/
-/src/main/frontend-ui/bookstoreapp/nodejs/node-v18.12.1-darwin-x64/
-/src/main/frontend-ui/bookstoreapp/npm/npm-v9.2.0/
+build/
+resources/
+src/main/frontend-ui/bookstoreapp/nodejs/
+src/main/frontend-ui/bookstoreapp/npm/npm-v9.2.0/
 .gradle/
